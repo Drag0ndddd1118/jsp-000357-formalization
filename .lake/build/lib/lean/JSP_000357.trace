@@ -1,0 +1,34 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["809746c05925db23.olean"],
+  "m": false,
+  "i": "3ec60d8146b45822.ilean",
+  "c": "6d8c8100de6c579d.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/.lake/build/lib/lean /Users/qinzhao/.elan/toolchains/leanprover--lean4---v4.34.0/bin/lean /Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/JSP_000357.lean -o /Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/.lake/build/lib/lean/JSP_000357.olean -i /Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/.lake/build/lib/lean/JSP_000357.ilean -c /Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/.lake/build/ir/JSP_000357.c --setup /Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/.lake/build/ir/JSP_000357.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "JSP_000357.lean:93:0: 'massias_sum_not_square' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"}],
+ "inputs":
+ [["deps",
+   [["«jsp-000357-formalization»/JSP_000357:extraDep",
+     [["@«jsp-000357-formalization»:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.34.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+   "a1c6c7aa3e9abfe7"],
+  ["/Volumes/Drag0ndddd/JustinSunPrize_Proofs/jsp-000357-formalization/JSP_000357.lean",
+   "61fdb806547e8654"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: JSP_000357", "2efb54366324cb76"],
+  ["Package.id?: (some jsp-000357-formalization)", "c300206dffc9fa21"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "81fa08a75c808a04"}
